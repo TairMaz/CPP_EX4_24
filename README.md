@@ -57,7 +57,29 @@ renderTree: Initializes the SDL environment and starts the rendering process, di
 
 SDL and TTF Libraries: Used for rendering the tree. SDL handles the graphical rendering, while TTF is used for rendering text (node values).
 
-## 5. Demo.cpp: Code Execution Examples
+## 5. Complex.hpp: Representation of Complex Numbers
+
+Purpose: Represents and operates on complex numbers with real and imaginary components. 
+
+### Key Components:
+
+Data Members:
+
+real: The real part of the complex number.
+
+imag: The imaginary part of the complex number.
+
+Functions:
+
+Equality Operator (==): Compares two complex numbers for equality.
+
+Magnitude Calculation (magnitude): Computes the magnitude (or modulus) of the complex number.
+
+Comparison Operator (<): Compares the magnitude of two complex numbers.
+
+Output Operator (<<): Allows complex numbers to be printed in the form a + bi.
+
+## 6. Demo.cpp: Code Execution Examples
     
 Purpose: Provides a demonstration of how the tree and its iterators work, including a GUI rendering example.
 
@@ -69,7 +91,7 @@ Iterator Usage: Shows how to use different iterators to traverse and display tre
 
 GUI Visualization: Includes an example of how to visualize the tree using the TreeGUI class.
 
-## 6. Tests.cpp: Comprehensive Code Testing
+## 7. Tests.cpp: Comprehensive Code Testing
 
 Purpose: Contains unit tests and test cases to verify the correctness and functionality of the tree implementation and its iterators.
 
