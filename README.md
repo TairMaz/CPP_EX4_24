@@ -78,13 +78,13 @@ Purpose: Contains unit tests and test cases to verify the correctness and functi
 Test Cases: Various test cases for different tree operations, including adding nodes, traversing trees using iterators, and ensuring constraints (like limiting the number of children per node) are respected.
 
 # Libraries Used
-# Standard Library:
+### Standard Library:
  Provides basic functionalities such as data structures (std::stack, std::queue, etc.) and I/O operations (iostream).
 
-# SDL2:
+### SDL2:
  A powerful library for handling graphical output, used here to create a window and render shapes and text.
 
-# SDL2_ttf:
+### SDL2_ttf:
  An SDL extension for rendering text using TrueType fonts, crucial for displaying node values in the GUI.
 
 This structure ensures a clear separation of concerns, with each component handling a specific aspect of the tree's functionality, from basic data representation to advanced GUI visualization and testing.
