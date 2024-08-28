@@ -10,7 +10,7 @@ Data Members: Stores the value of the node and a list of pointers to its childre
 
 Functions: Provides methods to get and set the value of the node, and to manage its children (e.g., adding a child node).
 
-3. tree.hpp: k-ary Tree Implementation
+## 2. tree.hpp: k-ary Tree Implementation
 Purpose: Implements a generic k-ary tree structure, where each node can have up to k children. The tree can handle different types of data, as specified by the template parameter.
 
 Key Components:
@@ -25,7 +25,7 @@ add_sub_node: Adds a child node to a specified parent node, ensuring the parent 
 
 Iterator Functions: Provides methods to create different iterators (pre-order, post-order, in-order, BFS, DFS) to traverse the tree.
 
-5. iterators.hpp: Various Iterators
+## 3. iterators.hpp: Various Iterators
    
 Purpose: Provides iterator classes for different tree traversal methods.
 
@@ -43,7 +43,7 @@ DFSIter: Performs depth-first traversal, similar to pre-order but specifically i
 
 HeapIter: Used for traversing a binary tree as if it were a binary heap.
 
-7. treeGUI.hpp: GUI-Based Tree Rendering
+## 4. treeGUI.hpp: GUI-Based Tree Rendering
    
 Purpose: Handles the visualization of the tree using a graphical user interface (GUI).
 
@@ -57,7 +57,7 @@ renderTree: Initializes the SDL environment and starts the rendering process, di
 
 SDL and TTF Libraries: Used for rendering the tree. SDL handles the graphical rendering, while TTF is used for rendering text (node values).
 
-9. Demo.cpp: Code Execution Examples
+## 5. Demo.cpp: Code Execution Examples
     
 Purpose: Provides a demonstration of how the tree and its iterators work, including a GUI rendering example.
 
@@ -69,7 +69,7 @@ Iterator Usage: Shows how to use different iterators to traverse and display tre
 
 GUI Visualization: Includes an example of how to visualize the tree using the TreeGUI class.
 
-11. Tests.cpp: Comprehensive Code Testing
+## 6. Tests.cpp: Comprehensive Code Testing
 
 Purpose: Contains unit tests and test cases to verify the correctness and functionality of the tree implementation and its iterators.
 
