@@ -1,6 +1,6 @@
 # CPP_EX4_24
 # Project Structure:
-1. node.hpp: Single Node Representation
+## 1. node.hpp: Single Node Representation
    
 Purpose: Represents a single node in the tree, which holds a value and pointers to its child nodes.
 
