@@ -4,7 +4,7 @@
    
 Purpose: Represents a single node in the tree, which holds a value and pointers to its child nodes.
 
-Key Components:
+### Key Components:
 
 Data Members: Stores the value of the node and a list of pointers to its children.
 
