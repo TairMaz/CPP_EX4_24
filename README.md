@@ -13,7 +13,7 @@ Functions: Provides methods to get and set the value of the node, and to manage 
 ## 2. tree.hpp: k-ary Tree Implementation
 Purpose: Implements a generic k-ary tree structure, where each node can have up to k children. The tree can handle different types of data, as specified by the template parameter.
 
-Key Components:
+### Key Components:
 
 Data Members: Contains a pointer to the root node and the maximum number of children (k) allowed per node.
 
@@ -29,7 +29,7 @@ Iterator Functions: Provides methods to create different iterators (pre-order, p
    
 Purpose: Provides iterator classes for different tree traversal methods.
 
-Key Components:
+### Key Components:
 
 PreOrderIter: Traverses the tree in pre-order (root, left, right).
 
@@ -47,7 +47,7 @@ HeapIter: Used for traversing a binary tree as if it were a binary heap.
    
 Purpose: Handles the visualization of the tree using a graphical user interface (GUI).
 
-Key Components:
+### Key Components:
 
 Rendering Functions:
 
@@ -61,7 +61,7 @@ SDL and TTF Libraries: Used for rendering the tree. SDL handles the graphical re
     
 Purpose: Provides a demonstration of how the tree and its iterators work, including a GUI rendering example.
 
-Key Components:
+### Key Components:
 
 Tree Creation: Demonstrates creating and populating different trees (binary and ternary).
 
@@ -73,15 +73,18 @@ GUI Visualization: Includes an example of how to visualize the tree using the Tr
 
 Purpose: Contains unit tests and test cases to verify the correctness and functionality of the tree implementation and its iterators.
 
-Key Components:
+### Key Components:
 
 Test Cases: Various test cases for different tree operations, including adding nodes, traversing trees using iterators, and ensuring constraints (like limiting the number of children per node) are respected.
 
 # Libraries Used
-Standard Library: Provides basic functionalities such as data structures (std::stack, std::queue, etc.) and I/O operations (iostream).
+# Standard Library:
+ Provides basic functionalities such as data structures (std::stack, std::queue, etc.) and I/O operations (iostream).
 
-SDL2: A powerful library for handling graphical output, used here to create a window and render shapes and text.
+# SDL2:
+ A powerful library for handling graphical output, used here to create a window and render shapes and text.
 
-SDL2_ttf: An SDL extension for rendering text using TrueType fonts, crucial for displaying node values in the GUI.
+# SDL2_ttf:
+ An SDL extension for rendering text using TrueType fonts, crucial for displaying node values in the GUI.
 
 This structure ensures a clear separation of concerns, with each component handling a specific aspect of the tree's functionality, from basic data representation to advanced GUI visualization and testing.
